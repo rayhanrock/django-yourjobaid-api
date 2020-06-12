@@ -87,6 +87,7 @@ DATABASES = {
         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+<<<<<<< HEAD
 # REST_FRAMEWORK = {
 #     'DEFAULT_RENDERER_CLASSES': [
 #         'rest_framework.renderers.JSONRenderer',
@@ -95,6 +96,9 @@ DATABASES = {
 #     #     'rest_framework.parsers.JSONParser',
 #     # ]
 # }
+=======
+
+>>>>>>> f243f4c7994cef555955bb7b4ff1de3b742cf757
 
 # Password validation
 # https://docs.djangoproject.com/en/3.0/ref/settings/#auth-password-validators
@@ -142,8 +146,13 @@ CORS_ORIGIN_ALLOW_ALL = True
 
 EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = "smtp.gmail.com"
+<<<<<<< HEAD
+EMAIL_HOST_USER = 'emailmanager.yourjobaid@gmail.com'
+EMAIL_HOST_PASSWORD = 'nstu12345678'
+=======
 EMAIL_HOST_USER = '############'
 EMAIL_HOST_PASSWORD = '###########'
+>>>>>>> f243f4c7994cef555955bb7b4ff1de3b742cf757
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
